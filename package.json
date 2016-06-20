@@ -1,0 +1,19 @@
+{
+  "name": "packtpub-current-ebook",
+  "version": "1.0.0",
+  "description": "Checks for the current free ebook at https://www.packtpub.com and shows a notification when run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Bauerochse",
+  "license": "ISC",
+  "bin": {
+    "packtpub-current-ebook": "./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "node-notifier": "^4.6.0",
+    "request": "^2.72.0"
+  }
+}
